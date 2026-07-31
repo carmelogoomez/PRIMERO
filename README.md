@@ -52,7 +52,8 @@ python3 -m http.server 8000
 ## Notas
 
 - **Diseño:** paleta italiana (tomate, albahaca, dorado y crema), tipografía serif para titulares y responsive completo (móvil incluido).
-- **Datos de contacto:** Instagram [@pizzplass_pizzas](https://www.instagram.com/pizzplass_pizzas), TikTok `pizzplass.pizzas` y WhatsApp `675 26 49 67` son reales. El email es **temporal para pruebas** (`carmelogoomez00@gmail.com`); sustituir por el definitivo (p. ej. `hola@pizzplass.es`) cuando exista.
+- **Datos de contacto:** Instagram [@pizzplass_pizzas](https://www.instagram.com/pizzplass_pizzas), TikTok `pizzplass.pizzas`, WhatsApp `675 26 49 67` y email `pizzplasspizzas@gmail.com` son reales.
 - **Logo:** `assets/logo.jpg` (logo real de la marca).
 - **Formulario de contacto:** funcional sin backend. Envía por **email vía [FormSubmit](https://formsubmit.co)** (requiere activar el correo una vez) y ofrece un botón de **WhatsApp** con los datos prerrellenados. Todos los campos son obligatorios.
+- **SEO:** cada página incluye `title`, `meta description`, `canonical`, Open Graph y Twitter Card. Datos estructurados JSON-LD: `FoodEstablishment` + `WebSite` (inicio), `BlogPosting` (artículos), `BreadcrumbList` y `ContactPage`. `sitemap.xml` y `robots.txt` incluidos.
 - **Publicación:** GitHub Pages sirviendo `master` (raíz) con dominio propio `pizzplass.es` (archivo `CNAME`).
